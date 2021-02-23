@@ -1,0 +1,1 @@
+// talvez um dia criar script como se fosse uma rede social, atualizando a foto, followers...etc///
