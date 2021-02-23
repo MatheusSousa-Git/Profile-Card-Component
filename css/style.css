@@ -1,0 +1,145 @@
+:root {
+  font-size: 18px;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: auto;
+  font-family: 'Kumbh Sans', sans-serif;
+  color: #221b1b;
+}
+section {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #19a2ae;
+  overflow: hidden;
+  height: 100vh;
+  position: relative;
+}
+.card {
+  position: relative;
+  width: 400px;
+  border-radius: 20px;
+  background-color: #fff;
+  overflow: hidden;
+  text-align: center;
+}
+.card-header {
+  background-image: url("../images/bg-pattern-card.svg");
+  background-size: cover;
+  height: 150px;
+  background-position: center;
+}
+.img-holder {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  overflow: hidden;
+  margin: -50px auto 30px auto;
+}
+.card-body {
+  padding: 0 20px 30px;
+}
+.name-age {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+.age,
+.city,
+.meta {
+  font-weight: 50;
+  opacity: 90%;
+  color: #2d3248;
+}
+.card-footer {
+  border-top: 1px solid #808080;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+.age {
+  padding: 5px;
+}
+.value {
+  font-size: 1.2rem;
+}
+.meta,
+.city {
+  padding: 10px;
+  font-size: 0.975rem;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.circles .c1,
+.circles .c2 {
+  position: absolute;
+  animation: 2s circles forwards;
+  opacity: 0;
+  width: 800px;
+}
+.circles .c1 {
+  top: -180px;
+  left: -1px;
+  transform: translate(-100px, -50px);
+}
+.circles .c2 {
+  bottom: -180px;
+  right: -1px;
+  transform: translate(100px, 50px);
+}
+.attribution {
+  position: absolute;
+  bottom: 0;
+  background-color: #19a2ae;
+  text-align: center;
+  font-size: 12px;
+}
+.attribution a {
+  color: #3e4870;
+}
+@-moz-keyframes circles {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@-webkit-keyframes circles {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@-o-keyframes circles {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes circles {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
